@@ -3,6 +3,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import (classification_report, confusion_matrix,
                              f1_score, accuracy_score, balanced_accuracy_score,
                              ConfusionMatrixDisplay)
@@ -41,3 +42,17 @@ def evaluate(y_true, y_pred, model_name="model", plot=True):
         plt.show()
 
     return results
+
+def load_splits(path="../data/processed/amazon_reviews_clean.csv"):
+    """Return the canonical train/val/test split. Identical for every model."""
+    df = pd.read_csv(path, low_memory=False)
+    df["text_full"] = (df["reviews.title"].fillna("") + ". " + df["reviews.text"]).str.strip()
+    df = df.dropna(subset=["text_full", "sentiment"])
+
+    X, y = df["text_full"], df["sentiment"]
+    X_train, X_temp, y_train, y_temp = train_test_split(
+        X, y, test_size=0.30, stratify=y, random_state=RANDOM_STATE)
+    X_val, X_test, y_val, y_test = train_test_split(
+        X_temp, y_temp, test_size=0.50, stratify=y_temp, random_state=RANDOM_STATE)
+
+    return X_train, X_val, X_test, y_train, y_val, y_test
