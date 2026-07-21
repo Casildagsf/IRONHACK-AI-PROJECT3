@@ -56,3 +56,32 @@ def load_splits(path="../data/processed/amazon_reviews_clean.csv"):
         X_temp, y_temp, test_size=0.50, stratify=y_temp, random_state=RANDOM_STATE)
 
     return X_train, X_val, X_test, y_train, y_val, y_test
+
+Llabel2id = {
+    "Negative": 0,
+    "Neutral": 1,
+    "Positive": 2,
+}
+
+id2label = {
+    0: "Negative",
+    1: "Neutral",
+    2: "Positive",
+}
+
+
+from sklearn.metrics import accuracy_score, f1_score
+
+def compute_metrics(eval_pred):
+    """
+    Metrics used by the Hugging Face Trainer during evaluation.
+    """
+    predictions, labels = eval_pred
+
+    preds = predictions.argmax(axis=-1)
+
+    return {
+        "accuracy": accuracy_score(labels, preds),
+        "f1_macro": f1_score(labels, preds, average="macro"),
+        "f1_weighted": f1_score(labels, preds, average="weighted"),
+    }
