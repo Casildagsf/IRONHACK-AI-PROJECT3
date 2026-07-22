@@ -1,0 +1,1229 @@
+{
+  "meta": {
+    "n_products": 37,
+    "n_reviews": 34609,
+    "min_reviews_to_rank": 15,
+    "prior_weight": 50,
+    "global_mean_rating": 4.405,
+    "ranking_note": "Ranked by shrunken mean (Bayesian average), not raw mean.",
+    "excluded_products": [
+      {
+        "asin": "B00QJDU3KY",
+        "reason": "corrupt category string ('mazon.co.uk,Amazon Devices') — a Kindle Paperwhite misclustered into Echo/Fire TV"
+      }
+    ]
+  },
+  "clusters": [
+    {
+      "cluster_name": "Fire Tablets",
+      "cluster_id": 0,
+      "n_products": 14,
+      "n_rankable": 9,
+      "n_reviews": 17627,
+      "mean_rating": 4.49,
+      "sentiment_counts": {
+        "Positive": 16134,
+        "Neutral": 984,
+        "Negative": 509
+      },
+      "pct_positive": 91.5,
+      "pct_negative": 2.9,
+      "loved_themes": [
+        "price",
+        "reading",
+        "size",
+        "read",
+        "books",
+        "fast",
+        "features",
+        "wife"
+      ],
+      "complaint_themes": [
+        "slow",
+        "returned",
+        "charge",
+        "work",
+        "turn",
+        "return",
+        "returning",
+        "disappointed"
+      ],
+      "products": [
+        {
+          "rank": 1,
+          "asin": "B01AHB9CN2",
+          "name": "All New Fire Hd 8 Tablet 8 Hd Display Wifi 16 Gb Includes Special Offers Magenta",
+          "n_reviews": 2814,
+          "mean_rating": 4.59,
+          "score": 4.584,
+          "pct_positive": 94.8,
+          "pct_negative": 1.9,
+          "recommend_rate": 96.3,
+          "categories": "Electronics,iPad & Tablets,All Tablets,Fire Tablets,Tablets,Computers & Tablets",
+          "loved_themes": [
+            "price",
+            "read",
+            "books",
+            "reading",
+            "movies",
+            "kids"
+          ],
+          "complaint_themes": [
+            "returned",
+            "tried",
+            "remove",
+            "exchange",
+            "charge",
+            "returning"
+          ],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 4,
+              "text": "Mother needed something since her tablet had died. Was lot easier for her to learn than her old table. She does lots more with Kindle than she did with tablet"
+            },
+            {
+              "rating": 4.0,
+              "helpful": 3,
+              "text": "I like this tablet. It has everything you want. However the apps within it need to be updated more often. If this happened than it would be top above an iPad mini. For now, it gives me enough of what I need and in HD. For $89 it was a good deal."
+            },
+            {
+              "rating": 4.0,
+              "helpful": 3,
+              "text": "Light to carry and good picture quality. This was purchased for a hearing impaired person to download video in American Sign Language . This product was easy to maneuver for someone that was not use to a tablet."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 4,
+              "text": "This is not a bad product. Amazon offers greats products but this tablet was missing features even for a basic tablet. The lack of google chrome compatibility made this tablet not right for me."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 2,
+              "text": "I bought this tablet for my 4 year old daughter. Too many advertisements. I would rather pay more and not have a single ad."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 1,
+              "text": "This tablet could be so much better if the apps actually worked decently. The built in Amazon pieces for Prime members is great and work flawlessly. But it's not enough to overcome the terrible app behavior and countless freezes.  They need to take a lesson or two from Apple."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "asin": "B01AHB9CYG",
+          "name": "All New Fire Hd 8 Tablet 8 Hd Display Wifi 32 Gb Includes Special Offers Magenta",
+          "n_reviews": 158,
+          "mean_rating": 4.59,
+          "score": 4.544,
+          "pct_positive": 94.9,
+          "pct_negative": 2.5,
+          "recommend_rate": 95.6,
+          "categories": "Tablets,Fire Tablets,Electronics,Computers,Computer Components,Hard Drives & Storage,Computers & Tablets,All Tablets",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 16,
+              "text": "This tablet is excellent considering the price. It has a very clear display, is a fairly large tablet, and has plenty of memory to store a lot of apps, music, pictures and more. Considering the price, this tablet has the best value out of all tablets to date in my opinion."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 10,
+              "text": "Awesome and best e-book reader. I love the smooth page translations, bedtime shade and perfect hand held device. Kindle Fire has took their e reader to the next level. Great apps, music, and storage expansion for the price."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 9,
+              "text": "All I wanted was a Kindle to read books. I got this instead!! Excellent choice because I can read books and do so much more!!"
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 8,
+              "text": "I had to return this product as it was not compatible with things such as Facebook and Itunes... which is what I needed it for. Great if you are into books and streaming movies!"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "asin": "B0189XYY0Q",
+          "name": "Fire Hd 10 Tablet 101 Hd Display Wifi 16",
+          "n_reviews": 256,
+          "mean_rating": 4.56,
+          "score": 4.533,
+          "pct_positive": 91.8,
+          "pct_negative": 3.1,
+          "recommend_rate": 94.5,
+          "categories": "Electronics,Tablets & E-Readers,Tablets,Back To College,College Electronics,College Ipads & Tablets,Featured Brands,Amazon Devices,Electronics Deals,Computers & Tablets,All Tablets,Electronics Features,eBook Readers",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 7,
+              "text": "As I age, it's difficult for me to see the smaller screens so when this one came out .... I was delighted!!! Love playing my games!!!"
+            },
+            {
+              "rating": 4.0,
+              "helpful": 4,
+              "text": "The kindle fire 10 is a major upgrade from the original fire. My kids, 8 and 11, referred to it as an IPad when it was first received."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 3,
+              "text": "nice tablet function well great item for surfing the Web easy to use and set up yes I would recommend"
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "I love the kindle and have had one in one shape or another since they first came out, but I just could not take how slow this model was. I returned it and purchased a Samsung tablet."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "I had originally decided to get a kindle instead of an iPad due to the cost. It's a great screen and has good sound, but the battery is pure junk! I should have went with an iPad."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 0,
+              "text": "The only reason I chose 1 star is because of size. The length is disproportionate to the width. Awkward when holding it."
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "asin": "B018SZT3BK",
+          "name": "Amazon Fire Hd 88 In Tablet 16 Gb Black",
+          "n_reviews": 270,
+          "mean_rating": 4.56,
+          "score": 4.532,
+          "pct_positive": 93.3,
+          "pct_negative": 3.0,
+          "recommend_rate": 94.4,
+          "categories": "Fire Tablets,Tablets,Computers & Tablets,All Tablets,Computers/Tablets & Networking,Tablets & eBook Readers",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 48,
+              "text": "Just picked up from BB a couple of hours ago. Screen in good and tablet seems faster than previous model possibly due to more memory. Battery so far seems very good."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 20,
+              "text": "This tablet is one of the best.You won't regret buying this one.Good work,Amazon."
+            },
+            {
+              "rating": 4.0,
+              "helpful": 4,
+              "text": "It is an amazon amazing among many things that can be used by many people and always will be a good product to use for many people to tryout and have an important experience for their family. Amazon Kindle fire 16gb with side that has slot for the extra memory in the form of a memory chip."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 2.0,
+              "helpful": 1,
+              "text": "This tablet could be so much better if the apps actually worked decently. The built in Amazon pieces for Prime members is great and work flawlessly. But it's not enough to overcome the terrible app behavior and countless freezes. They need to take a lesson or two from Apple."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "The tablet periodically shuts off for no reason. I have contacted Amazon but their only suggestion was to reset to factory default."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 0,
+              "text": "Found this tablet to be very intrusive with adds, almost forced to use credit card to make things work."
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "asin": "B018Y23MNM",
+          "name": "Fire Kids Edition Tablet 7 Display Wifi 16 Gb",
+          "n_reviews": 1685,
+          "mean_rating": 4.53,
+          "score": 4.523,
+          "pct_positive": 91.2,
+          "pct_negative": 3.4,
+          "recommend_rate": 94.0,
+          "categories": "Tablets,Fire Tablets,Computers & Tablets,All Tablets",
+          "loved_themes": [
+            "grandson",
+            "old",
+            "kids",
+            "year old",
+            "learning",
+            "son"
+          ],
+          "complaint_themes": [
+            "charge",
+            "slow",
+            "returned",
+            "work",
+            "turn charge",
+            "turn"
+          ],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 6,
+              "text": "i think the price is great the durability the easiness although you do need to spend money as well for extra better games and the charger breaks easily but u can use any android charger overall well worth the price i believe"
+            },
+            {
+              "rating": 5.0,
+              "helpful": 2,
+              "text": "The value was there with a sale price reduction of $30. Especially for the 16GB model. Another key factor is the 2 year no questions asked warranty replacement. A valuable consideration for a tablet primarily used by a child."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 2,
+              "text": "eady enough for my 3 year old to use by herself. Can turn it on and choose her app. Comes with s protective case. Great product for kids to learn on."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 1,
+              "text": "Everything is locked out to Amazon, no compatibility with the Google Play Store and a lot of games the children play are on the Play Store. This product is bad because it is locked into only Amazon services."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 1,
+              "text": "Not sure why, but it kept freezing and ended up having to return it. Very disappointing"
+            },
+            {
+              "rating": 1.0,
+              "helpful": 1,
+              "text": "It takes forever to download apps. I'm returning it will be getting something else."
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "asin": "B018Y225IA",
+          "name": "Brand New Amazon Kindle Fire 16 Gb 7 Ips",
+          "n_reviews": 1038,
+          "mean_rating": 4.5,
+          "score": 4.5,
+          "pct_positive": 92.1,
+          "pct_negative": 3.4,
+          "recommend_rate": 95.3,
+          "categories": "Computers/Tablets & Networking,Tablets & eBook Readers,Computers & Tablets,Tablets,All Tablets",
+          "loved_themes": [
+            "price",
+            "games",
+            "reading",
+            "books",
+            "gift",
+            "christmas"
+          ],
+          "complaint_themes": [
+            "returned",
+            "impressed",
+            "charge",
+            "apps",
+            "disappointed",
+            "samsung"
+          ],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 11,
+              "text": "This tablet has been so good that I bought 4 so far.All my nephews and nieces have one and they are loving it."
+            },
+            {
+              "rating": 4.0,
+              "helpful": 9,
+              "text": "Purchased this for my son. Has room to upgrade memory to allow more books & games. But the speakers could be better or located in a better position."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 7,
+              "text": "This has been a great purchase. It fits all my tablet and e-reader needs."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 1,
+              "text": "Worst product ever. Constantly screwing up and filled with ads you have to pay to remove. Best Buy refused to help when I wanted to return it"
+            },
+            {
+              "rating": 1.0,
+              "helpful": 1,
+              "text": "Gave it to my granddaughter and she loves it..I want to buy one for myself...."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 1,
+              "text": "Returned it. it was a poor reader and clearly would not last.."
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "asin": "B01BFIBRIE",
+          "name": "Kindle Paperwhite Ereader White 6 High Resolution Display 300",
+          "n_reviews": 30,
+          "mean_rating": 4.6,
+          "score": 4.478,
+          "pct_positive": 96.7,
+          "pct_negative": 0.0,
+          "recommend_rate": 96.7,
+          "categories": "Electronics,iPad & Tablets,All Tablets,Computers & Tablets,Tablets,eBook Readers",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 4.0,
+              "helpful": 1,
+              "text": "El libro electrnico es muy prctico, puedes tener todos los libros ah."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 0,
+              "text": "If you are a hardcore reader, this is your Kindle! The light makes a huge difference to read under any conditions, its a big improvement from the standard Kindle, if you are unsure between one or the other, go for the Paperwhite, its worth the extra money."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 0,
+              "text": "You will not regret this purchase! The kindle holds a charge for more than a week, is super light weight, easy on the eyes, and allows you to define words with the point of a finger! It even adds defined words to a vocabulary list, so you can review them!"
+            }
+          ],
+          "quotes_negative": []
+        },
+        {
+          "rank": 8,
+          "asin": "B018Y229OU",
+          "name": "Fire Tablet 7 Display Wifi 8 Gb Includes Special Offers Magenta",
+          "n_reviews": 10966,
+          "mean_rating": 4.45,
+          "score": 4.454,
+          "pct_positive": 90.7,
+          "pct_negative": 3.0,
+          "recommend_rate": 95.1,
+          "categories": "Fire Tablets,Tablets,Computers & Tablets,All Tablets,Electronics, Tech Toys, Movies, Music,Electronics,iPad & Tablets,Android Tablets,Frys",
+          "loved_themes": [
+            "price",
+            "old",
+            "year old",
+            "year",
+            "daughter",
+            "fast"
+          ],
+          "complaint_themes": [
+            "slow",
+            "returned",
+            "screen",
+            "work",
+            "google",
+            "apps"
+          ],
+          "quotes_positive": [
+            {
+              "rating": 4.0,
+              "helpful": 36,
+              "text": "I purchased this to read books and check out ebooks from the library. I love it and it's easy to use. This is in color and you can even play games on it. It's small enough to fit in my purse so while I'm at appointments I can read and if my son gets board, he can play games."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 21,
+              "text": "I have dabbled in the market for a inexpensive tablet for a while and found this and boy am I glad I did. Tablet runs faster than I thought and has a very good display. If you can't afford an Ipad get this!"
+            },
+            {
+              "rating": 5.0,
+              "helpful": 21,
+              "text": "This is a name brand tablet for less than the case of other tablets! This is a no brainer and will make great Christmas gifts!"
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 2.0,
+              "helpful": 25,
+              "text": "Overall the tablet is okay, I just paid 50$ so can't complain anything about specs but the fact that you can't use google services sucks. No google, no youtube, gmail!"
+            },
+            {
+              "rating": 1.0,
+              "helpful": 24,
+              "text": "Nice Amazon Fire tablet But...the camera is not clear enough 2.0 megapixels and Amazon Fire is very slow wedsite and app it takes very forever download I think I have to returned on best buy and buy a good tablet 10.1 Lenovo and Samsung Galaxy...I will gave a Zero Rating Star"
+            },
+            {
+              "rating": 1.0,
+              "helpful": 17,
+              "text": "I do not like the layout. I want to remove stuff from the screen and can't . I don't like some of the lock out features like playing songs for the kids. i do not like all the advertisements. I don't like the screen doesn't go dark when i want it to such as when music is playing. I liked the samsung"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "asin": "B00TSUGXKE",
+          "name": "Fire Tablet 7 Display Wifi 8 Gb Includes Special Offers Black",
+          "n_reviews": 372,
+          "mean_rating": 4.42,
+          "score": 4.422,
+          "pct_positive": 88.7,
+          "pct_negative": 3.8,
+          "recommend_rate": 93.3,
+          "categories": "Electronics Features,Fire Tablets,Computers & Tablets,Tablets,All Tablets,Computers/Tablets & Networking,Tablets & eBook Readers",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 0,
+              "text": "I got this tablet for my mother in law. She is not a tech savvy person but it so easy to use. She connected it to wifi and now lives on it during her off time. I didn't expect a lot because it was inexpensive but it was well worth the money and I will be getting the exact same model for my mother."
+            },
+            {
+              "rating": 4.0,
+              "helpful": 0,
+              "text": "I bought three tablets for my children of various ages. They play with it everyday. It was difficult to find apps that are similar to Google Play. I did find some apps that they enjoy.pros: easy to usecons: it take time to find apps that you really want if you are use to the google play store."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 0,
+              "text": "I love my kindle fire. So much so when I misplaced my first kindle I went to Best Buy to get another. It was only $40 after all. I read books on it but it does so much more! I watch movies, play games, shop, browse the internet. Pretty much everything I can do on a much more expensive tablet."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 0,
+              "text": "Hopefully, this will at least work as an e-reader. Otherwise, Amazon has it locked up so tight one cannot do much else with it. And, even with my fiber optic Wi-Fi it is slower than cold molasses in January in Canada. Well, I needed a Kindle e-reader and for $40 that is ok."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 0,
+              "text": "charging port fault appeared in tablet after 2 weeks of purchase from BB, I went to BB store for warranty claim, they said to contact Amazon for any issue, Amazon said they didn't recognise my order in their system. Ended without any remedy."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "I bought this to use only one application. Oh, is it most difficult to get this thing to continuously work! And I still can't get the geek squad program to properly download onto the device. I'm pretty disappointed."
+            }
+          ]
+        }
+      ],
+      "data_notes": {
+        "rating_spread": 0.18,
+        "has_genuinely_bad_product": false,
+        "caution": "All ranked products score well. Describe the last as 'lowest rated', not as bad. Do not invent criticism."
+      }
+    },
+    {
+      "cluster_name": "Echo, Fire TV & Smart Home",
+      "cluster_id": 2,
+      "n_products": 7,
+      "n_rankable": 3,
+      "n_reviews": 12330,
+      "mean_rating": 4.68,
+      "sentiment_counts": {
+        "Positive": 11741,
+        "Neutral": 399,
+        "Negative": 190
+      },
+      "pct_positive": 95.2,
+      "pct_negative": 1.5,
+      "loved_themes": [
+        "music",
+        "alexa",
+        "fun",
+        "sound",
+        "gift",
+        "family",
+        "set",
+        "weather"
+      ],
+      "complaint_themes": [
+        "returned",
+        "work",
+        "money",
+        "item",
+        "return",
+        "connection",
+        "google",
+        "roku"
+      ],
+      "products": [
+        {
+          "rank": 1,
+          "asin": "B00U3FPN4U",
+          "name": "Fire Tv Streaming Media Player 2015 Model",
+          "n_reviews": 5056,
+          "mean_rating": 4.71,
+          "score": 4.704,
+          "pct_positive": 95.8,
+          "pct_negative": 1.4,
+          "recommend_rate": 97.1,
+          "categories": "Back To College,College Electronics,College Tvs & Home Theater,Electronics,Tvs & Home Theater,Streaming Devices,Featured Brands,Amazon Devices,Holiday Shop,Ways To Shop,TV & Home Theater,Streaming Media Players,All Streaming Media Players,TVs Entertainment,Video Games,Kindle Store,Electronics Features,Kids & Family,Fire TV",
+          "loved_themes": [
+            "movies",
+            "stick",
+            "cable",
+            "family",
+            "shows",
+            "watch"
+          ],
+          "complaint_themes": [
+            "returned",
+            "item",
+            "remote",
+            "roku",
+            "work",
+            "return"
+          ],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 46,
+              "text": "I bought this for one reason, and thats Kodi, its an awesome device for that, and with the sd card reader its easy to install and get up and running, highly recommended"
+            },
+            {
+              "rating": 5.0,
+              "helpful": 14,
+              "text": "I did some research on different streaming devices before I bought the FireTV. I would highly recommend it. I actually just cancelled my cable subscription because it works that well. I'm now saving over $100/month, you can't beat that. There are tons of apps and everyone can watch what they want."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 7,
+              "text": "I cancelled my cable and only use the Amazon Fire .. I can watch my programmes when I feel like and it's easy to use !"
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 8,
+              "text": "Bought the fire TV excited about the 4K support. The first night it refused to load video content. I could only stream music. Now it refuses to load at all. It has completely stopped responding to the remote. Remote feels cheap."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 8,
+              "text": "I had no cable but had internet so I thought this Amazon item would be good. Basically you have to pay for each subscription to use this making it super costly. I retuned this and just use Netflix with a wifi enabled tv."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 5,
+              "text": "I purchased this firetv to upgrade my from first firetv version as I have a samsung 4k tv, this new firetv recognized my hdmi port as 4k compatible when I set the resolution to 4k on video settings, after trying all posible settings, this bug only gives 1080 even playing 4k content. firetv1=firetv2."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "asin": "B00L9EPT8O,B01E6AO69U",
+          "name": "Echo White",
+          "n_reviews": 6619,
+          "mean_rating": 4.67,
+          "score": 4.669,
+          "pct_positive": 95.2,
+          "pct_negative": 1.3,
+          "recommend_rate": 96.3,
+          "categories": "Stereos,Remote Controls,Amazon Echo,Audio Docks & Mini Speakers,Amazon Echo Accessories,Kitchen & Dining Features,Speaker Systems,Electronics,TVs Entertainment,Clearance,Smart Hubs & Wireless Routers,Featured Brands,Wireless Speakers,Smart Home & Connected Living,Home Security,Kindle Store,Home Automation,Home, Garage & Office,Home,Voice-Enabled Smart Assistants,Virtual Assistant Speakers,Portable Audio & Headphones,Electronics Features,Amazon Device Accessories,iPod, Audio Player Accessories,Home & Furniture Clearance,Consumer Electronics,Smart Home,Surveillance,Home Improvement,Smart Home & Home Automation Devices,Smart Hubs,Home Safety & Security,Voice Assistants,Alarms & Sensors,Amazon Devices,Audio,Holiday Shop",
+          "loved_themes": [
+            "sound",
+            "music",
+            "fun",
+            "gift",
+            "day",
+            "family"
+          ],
+          "complaint_themes": [
+            "google",
+            "questions",
+            "money",
+            "answer",
+            "returned",
+            "work"
+          ],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 31,
+              "text": "This is a great item!!! You can ask her basically anything and she will let you know the answer. Even How much wood could a woodchuck chuck if a woodchuck could chuck wood."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 12,
+              "text": "I normally do not write reviews but this device warrants one. Could not be happier with overall performance and capabilities, especially in controlling home automation devices."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 8,
+              "text": "Echo or Alexa from Amazon is smart and learns along with you. She is a nice gift for teens as well as seniors. It's the kind of thing you might think you didn't want or need until you get it and begin to use it. We like the sound quality of the speaker."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 4,
+              "text": "Bought this as a present for my boyfriend, and we both were very disappointed. I read lots of reviews and thought it would be an awesome gift to give. Alexa is a Siri downgrade. Don't waste your money on this."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 4,
+              "text": "Echo simply did not do anything it was advertised to do. Basic weather was sporadic and more detailed questions resulted in \"Cannot find response\"."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 3,
+              "text": "This device plays on the fact that you must subscribe to their stuff or this is just a empty cylinder that tells you the weather and that's it. And even then there is a subscription required for everything. Google Home at least plays general music lists and a number of other key actions."
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "asin": "B01BH83OOM",
+          "name": "Amazon Tap Portable Bluetooth Wifi Speaker Black",
+          "n_reviews": 636,
+          "mean_rating": 4.53,
+          "score": 4.522,
+          "pct_positive": 91.7,
+          "pct_negative": 3.8,
+          "recommend_rate": 93.0,
+          "categories": "Featured Brands,Electronics,Amazon Devices,Home,Home Improvement,Home Safety & Security,Home Security,Alarms & Sensors,Smart Home & Home Automation Devices,Mobile,Mobile Speakers,Mobile Bluetooth Speakers,Smart Hubs & Wireless Routers,Smart Hubs,Home, Garage & Office,Smart Home,Voice Assistants,Smart Home & Connected Living,Amazon Tap,Portable Audio,MP3 Accessories,Speakers,Amazon Echo,Electronics Features,TVs & Electronics,Portable Audio & Electronics,MP3 Player Accessories,Home Theater & Audio,Kindle Store,Frys,Electronic Components,Home Automation,Electronics, Tech Toys, Movies, Music,Audio,Bluetooth Speakers",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 4.0,
+              "helpful": 9,
+              "text": "Works great to control Alexa when she understands you and has good battery life but sound lacks bass except at low volumes. gets very loud at least. Easily connects to Bluetooth."
+            },
+            {
+              "rating": 4.0,
+              "helpful": 7,
+              "text": "This speaker's forte is it's drop and charge ability. It does connect with no issues to whatever you have it paired with. The sound quality though is ok...Def not very loud and lacks the lows. But for a small portable speaker which is not expensive I would recommend it."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 3,
+              "text": "Is it operate my wife loves it my granddaughter knows how to operate a good sounding Bluetooth speaker great freedom it even tells knock knock jokes in makes my granddaughter crack up that makes it worth every penny I paid useful to recommend to anybody"
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 1,
+              "text": "I spent more time trying get it functioning than I did actually keeping this product. After a couple of days and never getting it to understand or follow my commands I returned it to BB. Also it kept trying to sell me products which I really didn’t appreciate."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 1,
+              "text": "just okay! Product was for my girlfriend. Doesn't appear she uses it much except to steam music. Most of the questions I ask it I get nothing. I like Siri better."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "While it seemed to work fine, the Tap does not have the open mic feature. While that can be best for some, I bought it as a gift and they would prefer one that listens. The Tap makes you press the mic button every time you wish to communicate with Alexa, which seems to defeat the purpose."
+            }
+          ]
+        }
+      ],
+      "data_notes": {
+        "rating_spread": 0.18,
+        "has_genuinely_bad_product": false,
+        "caution": "All ranked products score well. Describe the last as 'lowest rated', not as bad. Do not invent criticism."
+      }
+    },
+    {
+      "cluster_name": "Kindle E-Readers",
+      "cluster_id": 3,
+      "n_products": 6,
+      "n_rankable": 5,
+      "n_reviews": 4092,
+      "mean_rating": 4.75,
+      "sentiment_counts": {
+        "Positive": 3965,
+        "Neutral": 85,
+        "Negative": 42
+      },
+      "pct_positive": 96.9,
+      "pct_negative": 1.0,
+      "loved_themes": [
+        "reading",
+        "battery",
+        "sun",
+        "wife",
+        "able",
+        "life",
+        "makes",
+        "paperwhite"
+      ],
+      "complaint_themes": [
+        "tried",
+        "work",
+        "customer",
+        "service",
+        "computer",
+        "usb",
+        "books library",
+        "internet"
+      ],
+      "products": [
+        {
+          "rank": 1,
+          "asin": "B00OQVZDJM",
+          "name": "Amazon Kindle Paperwhite Ebook Reader 4 Gb 6 Monochrome",
+          "n_reviews": 3176,
+          "mean_rating": 4.77,
+          "score": 4.767,
+          "pct_positive": 97.3,
+          "pct_negative": 0.9,
+          "recommend_rate": 98.2,
+          "categories": "Walmart for Business,Office Electronics,Tablets,Office,Electronics,iPad & Tablets,Windows Tablets,All Windows Tablets,Computers & Tablets,E-Readers & Accessories,E-Readers,eBook Readers,Kindle E-readers,Computers/Tablets & Networking,Tablets & eBook Readers,Electronics Features,Books & Magazines,Book Accessories,eReaders,TVs & Electronics,Computers & Laptops,Tablets & eReaders",
+          "loved_themes": [
+            "reading",
+            "paperwhite",
+            "battery",
+            "light",
+            "life",
+            "night"
+          ],
+          "complaint_themes": [
+            "work",
+            "tried",
+            "computer",
+            "books library",
+            "library",
+            "big"
+          ],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 4,
+              "text": "I just purchased it yesterday, and am no expert by far, but setup was a breeze. I also took it to the beach today and found that it was like reading a piece of paper. Amazing."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 4,
+              "text": "Back lighting is great. Much better than the shining light you pull out. The light on our old kindle could not be dimmed at night. Lots of cool new features!"
+            },
+            {
+              "rating": 5.0,
+              "helpful": 4,
+              "text": "I especially like the variable lighting which allows me to read at night without any external light or in the brightest outdoor light."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 12,
+              "text": "Paper white does not allow you do use books from the library as you cannot load apps. Only books from Amazon are available to read."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 11,
+              "text": "Reading a book, it's great. Working with PDF files, not so great. Also please be aware that Amazon Customer Service will treat you like a pariah because you purchased this Kindle from Best Buy instead of directly through their store."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 4,
+              "text": "It does what it is supposed to do. I wanted access to the internet to download books and didn't realize it would not do this feature. I would onIy recommend if a person only wants to read books from Amazon."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "asin": "B00IOY8XWQ",
+          "name": "Kindle Voyage Ereader 6 High Resolution Display 300 Ppi",
+          "n_reviews": 580,
+          "mean_rating": 4.73,
+          "score": 4.704,
+          "pct_positive": 96.7,
+          "pct_negative": 1.2,
+          "recommend_rate": 97.8,
+          "categories": "Walmart for Business,Office Electronics,Tablets,Electronics,iPad & Tablets,All Tablets,Computers & Tablets,E-Readers & Accessories,Kindle E-readers,Electronics Features,eBook Readers,See more Amazon Kindle Voyage (Wi-Fi),See more Amazon Kindle Voyage 4GB, Wi-Fi  3G (Unlocked...",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 4.0,
+              "helpful": 11,
+              "text": "If you already have a Paperwhite then there is no need to upgrade. But if you are in the market this has an excellent display and quick page turns. The reason to buy a dedicated e-reader is the 3 week long battery life. Love it"
+            },
+            {
+              "rating": 5.0,
+              "helpful": 9,
+              "text": "I have a previous version of the Kindle, but this one surpasses it in every way, from the resolution to the automatic brightness display. Recommend it highly."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 6,
+              "text": "The Kindle Voyage is light weight, slim. easy to use and so far has been a good product. The page turns very easily and the light works very well. The anti glare screen is the best!"
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 0,
+              "text": "very good produ ct and service will defintely refer to a freind."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "i cant at night it has no back light from one to ten its a 7"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "asin": "B00IOYAM4I",
+          "name": "Amazon Kindle Voyage 4 Gb Wifi 3 Gb Lack",
+          "n_reviews": 51,
+          "mean_rating": 4.86,
+          "score": 4.636,
+          "pct_positive": 100.0,
+          "pct_negative": 0.0,
+          "recommend_rate": 100.0,
+          "categories": "Computers & Tablets,E-Readers & Accessories,eBook Readers,Kindle E-readers",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 10,
+              "text": "I bought the Voyage kindle as an anniversary present for my wife and she LOVES it. The new dim light feature and matted glass screen are pretty amazing and work like a charm. She's able to read in all manner of lighting and places. This is a great eReader."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 7,
+              "text": "best e reader to date. yes it's a bit pricey, but it reads like a real book."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 6,
+              "text": "Fast, solid, all the necessary features for an ebook. I like the side pressure page advance and the small size fits my small hands."
+            }
+          ],
+          "quotes_negative": []
+        },
+        {
+          "rank": 4,
+          "asin": "B00VINDBJK",
+          "name": "Kindle Oasis Ereader With Leather Charging Cover Mer Lot",
+          "n_reviews": 67,
+          "mean_rating": 4.61,
+          "score": 4.523,
+          "pct_positive": 94.0,
+          "pct_negative": 3.0,
+          "recommend_rate": 94.0,
+          "categories": "eBook Readers,Kindle E-readers,Computers & Tablets,E-Readers & Accessories,E-Readers",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 8,
+              "text": "This is a great device. It is ultra light, and a pleasure to use. It also has a very satisfying premium feel. The price, of course, is not worth it.. unless you can afford it. There are cheaper models of the kindle with similar screen resolution....but if you CAN afford it, I highly recommend it."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 8,
+              "text": "BestBuy delivered this on the day of release. Amazon still seems to be back-ordered. It is a great product. Nice and light with uniform screen and snappy performance."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 5,
+              "text": "This is my 4th kindle and is easily the best one I've ever had. It is very comfortable to hold and is very compact. I was surprised how small it is but has the same screen size as my other kindles. It may look costly at first but remember you are getting a cover with additional battery."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "Easy to carry in purse or pocket but doesn't do anything better than the cheapest Kindle reader."
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "asin": "B00ZV9PXP2",
+          "name": "All New Kindle Ereader Black 6 Glare Free Touch",
+          "n_reviews": 212,
+          "mean_rating": 4.53,
+          "score": 4.508,
+          "pct_positive": 91.5,
+          "pct_negative": 1.4,
+          "recommend_rate": 93.4,
+          "categories": "Electronics,iPad & Tablets,All Tablets,Computers/Tablets & Networking,Tablets & eBook Readers,Computers & Tablets,E-Readers & Accessories,E-Readers,Used:Computers Accessories,Used:Tablets,Computers,iPads Tablets,Kindle E-readers,Electronics Features",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 8,
+              "text": "Small, light easy to read in any lighting. If you are looking for a device that serves one purpose, to read books anywhere, this is for you."
+            },
+            {
+              "rating": 4.0,
+              "helpful": 5,
+              "text": "Bought this for my 90+ year-old, totally no-tech mom. Her first e-book is Gone with the Wind. She likes the size and ease of use."
+            },
+            {
+              "rating": 4.0,
+              "helpful": 5,
+              "text": "Nice basic reader. Had the first model kindle and this is quite a bit lighter"
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "1st kindle screen failed & had to reboot often. Customer Service couldn't fix. Replaced. 2nd one screen reboots often. Customer service offered replace. Just want one that works. Can't get upgrade replacement"
+            },
+            {
+              "rating": 1.0,
+              "helpful": 0,
+              "text": "Am used to Kindle Fire which I love. No light to read by in the dark. Hard to navigate. This was a gift - would never purchase on my own."
+            }
+          ]
+        }
+      ],
+      "data_notes": {
+        "rating_spread": 0.33,
+        "has_genuinely_bad_product": false,
+        "caution": "All ranked products score well. Describe the last as 'lowest rated', not as bad. Do not invent criticism."
+      }
+    },
+    {
+      "cluster_name": "Accessories & Cables",
+      "cluster_id": 1,
+      "n_products": 10,
+      "n_rankable": 4,
+      "n_reviews": 560,
+      "mean_rating": 4.29,
+      "sentiment_counts": {
+        "Positive": 458,
+        "Neutral": 31,
+        "Negative": 71
+      },
+      "pct_positive": 81.8,
+      "pct_negative": 12.7,
+      "loved_themes": [
+        "charges",
+        "needed",
+        "new",
+        "perfectly",
+        "thanks",
+        "item",
+        "problems",
+        "worked"
+      ],
+      "complaint_themes": [
+        "charger",
+        "included",
+        "expensive",
+        "charge",
+        "money",
+        "overpriced",
+        "paid",
+        "come"
+      ],
+      "products": [
+        {
+          "rank": 1,
+          "asin": "B01J2G4VBG",
+          "name": "Amazon 5W Usb Official Oem Charger Power Adapter For Fire Tablets Kindle Ereaders [B01J2G4VBG]",
+          "n_reviews": 401,
+          "mean_rating": 4.44,
+          "score": 4.435,
+          "pct_positive": 85.8,
+          "pct_negative": 9.2,
+          "recommend_rate": null,
+          "categories": "Amazon Devices & Accessories,Amazon Device Accessories,Power Adapters & Cables,Kindle Store,Kindle E-Reader Accessories,Kindle Paperwhite Accessories",
+          "loved_themes": [
+            "worked",
+            "charges",
+            "perfectly",
+            "item",
+            "thanks",
+            "supposed"
+          ],
+          "complaint_themes": [
+            "expensive",
+            "included",
+            "charge",
+            "adapter",
+            "cost",
+            "plug"
+          ],
+          "quotes_positive": [
+            {
+              "rating": 4.0,
+              "helpful": 19,
+              "text": "Very expensive charger. I think the kindle should come with it as does all other tablets, including the fire, which is way cheaper and includes the charger for just 50. It is a pretty large charger though and doesn't fit in the kindle box with the kindle, at all."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 9,
+              "text": "I'm very glad that I made this purchase. I don't often bring my computer with me when I travel. I enjoy having the option of using a standard outlet to charge the Paperwhite."
+            },
+            {
+              "rating": 4.0,
+              "helpful": 0,
+              "text": "I got this as part of a Prime Day kindle bundle, and it works just fine. However, there doesn't appear to be any difference between this charger and the 5 other ones I have, all of which were much cheaper. If it wasn't part of the bundle I purchased, I would have never purchased this by itself."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "I ordered the Amazon 5W USB Official OEM Charger and Power Adapter for Fire Tablets and Kindle eReaders however, what I received is nothing like what is pictured. I received a charger cord that states LG Electronics and Verizon Accessory. I am not certain that these are the same item."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "Q: What's the difference between a 19.99 Amazon 5W USB Official OEM Charger and Power Supply and a 5.95 5V 1A (1000mA) USB port power supply - UL ListedA: 14.04 Calling it a 5W charger rather than a 5V 1A charger is a distinction without a difference."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 0,
+              "text": "Do not pay attention to their ad. It says the plug is not included with the kindle and it absolutely is. If they lie about this sort of thing what else do you think the lie about. Steer clear these guys are rip off artist."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "asin": "B01J4ORNHU",
+          "name": "Amazon Echo Fire Tv Power Adapter",
+          "n_reviews": 16,
+          "mean_rating": 4.5,
+          "score": 4.428,
+          "pct_positive": 87.5,
+          "pct_negative": 6.2,
+          "recommend_rate": null,
+          "categories": "Kindle Store,Categories,eBook Readers & Accessories,Fire TV Accessories,Electronics,Power Adapters & Cables,Amazon Device Accessories,Power Adapters",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 4.0,
+              "helpful": 12,
+              "text": "These are made for the Echo and as I use my Echo in a couple ends of the house so it is convenient to have the two of them"
+            },
+            {
+              "rating": 5.0,
+              "helpful": 0,
+              "text": "My Echo's power adapter began making a tiny but very audible noise that was disconcerting. My Echo continued to work well, but I needed to get rid of the aggravating and disconcerting noise, so I bought another adapter. This adapter works without making any noise. I am pleased with it."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 0,
+              "text": "My original power adapter has died. I purchased this. Works as designed, but even more, it's clearly a better engineered replacement unit. You can physically see the difference, from the connector cable, to the transformer body."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 2.0,
+              "helpful": 0,
+              "text": "Bought Amazon Fire TV 2/16/15, this is NOT the replacement cord for my model.Be aware of what you are purchasing --- this is NOT a fit for the older Fire models.Alternate, non Amazon, power cords are available for the older version of Fire TV on Amazon."
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "asin": "B00QFQRELG",
+          "name": "Amazon 9W Power Fast Official Oem Usb Charger Power",
+          "n_reviews": 73,
+          "mean_rating": 4.21,
+          "score": 4.286,
+          "pct_positive": 79.5,
+          "pct_negative": 16.4,
+          "recommend_rate": 94.4,
+          "categories": "Chargers & Adapters,Computers & Accessories,Tablet & E-Reader Accessories,Amazon Devices & Accessories,Fire Tablet Accessories,Electronics,Power Adapters & Cables,Cell Phones,Amazon Device Accessories,Cell Phone Accessories,Cell Phone Batteries & Power,Tablet Accessories,Featured Brands,Kindle Fire (2nd Generation) Accessories,Kindle Store,Home Improvement,Fire (5th Generation) Accessories,Electrical,Amazon Devices,Home,Tablets & E-Readers,Cables & Chargers",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 5.0,
+              "helpful": 2,
+              "text": "got this for my kindle 7 tablet . Does an excellent job charging the kindle fire 7 a lot faster than the one it came with the kindle fire"
+            },
+            {
+              "rating": 4.0,
+              "helpful": 1,
+              "text": "I assumed this item would have a cord with the plug. Never assume. It was the plug only. The cord on my 7\" Kindle is very short so I bought a 4 foot cord also. Now I keep the shorter cord with me so I can charge on the go, the longer cord and new plug are what I use at home. Satisfied"
+            },
+            {
+              "rating": 4.0,
+              "helpful": 1,
+              "text": "I gave this Amazon charger only four stars, because even though it does a great job of charging my new Paperwhite quickly it should be included with the reader and not sold separately."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 270,
+              "text": "I just used this after receiving it a few days. I tried a couple times to use it, but my Kindle registered connected to a low power charger. Too expensive for this to happen. I've never written a negative review till now."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 174,
+              "text": "I connected my Fire HD and another tablet to this power fast adapter and got a low power connection message. I purchased 2 chargers and will be returning them. The fire tablet charging process took a very long time. I eventually unplugged it and connected to another charger."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 98,
+              "text": "1 star...because it worked 1 time and stopped working.Returned it the very next day!My husband's Nexus charger and the Belkin 10W charger (that he got to replace this charger) do a GREAT job charging my Kindle Fire 8.9 HDX!"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "asin": "B00QL1ZN3G",
+          "name": "Amazon 5W Usb Official Oem Charger Power Adapter For Fire Tablets Kindle Ereaders [B00QL1ZN3G]",
+          "n_reviews": 15,
+          "mean_rating": 3.07,
+          "score": 4.096,
+          "pct_positive": 53.3,
+          "pct_negative": 40.0,
+          "recommend_rate": null,
+          "categories": "Electronics,eBook Readers & Accessories,Power Adapters,Computers/Tablets & Networking,Tablet & eBook Reader Accs,Chargers & Sync Cables,Power Adapters & Cables,Kindle Store,Amazon Device Accessories,Kindle Fire (2nd Generation) Accessories,Fire Tablet Accessories",
+          "loved_themes": [],
+          "complaint_themes": [],
+          "quotes_positive": [
+            {
+              "rating": 4.0,
+              "helpful": 0,
+              "text": "Works great as I would expect it too. Only complaint, why is this not just part of the kindle purchase instead of a separate line item."
+            },
+            {
+              "rating": 5.0,
+              "helpful": 0,
+              "text": "Arrived quickly and works perfectly. Very happy with my purchase."
+            }
+          ],
+          "quotes_negative": [
+            {
+              "rating": 1.0,
+              "helpful": 422,
+              "text": "This is clearly taking advantaged of Kindle customers who lack a technical understanding of what it is. Go to Amazon and search: AC USB Chargers, many listings starting at two for 7.99."
+            },
+            {
+              "rating": 1.0,
+              "helpful": 261,
+              "text": "If you own a tablet or smartphone, you already have one. If you don't, one of your friends/family will give you one of their three spares. These adapters are ubiquitous.While they're not all exactly the same, they all do the same thing. Worth about 2."
+            },
+            {
+              "rating": 2.0,
+              "helpful": 170,
+              "text": "I dont own this, first off. But 1 amp wont charge anything very quickly, and I only write this review because they advertised it on my Fire. The price is 19.99 as of this advert, and thats way out of line for a 1 amp charger."
+            }
+          ]
+        }
+      ],
+      "data_notes": {
+        "rating_spread": 1.43,
+        "has_genuinely_bad_product": true,
+        "caution": "A genuinely poor performer exists — criticism is supported."
+      }
+    }
+  ]
+}
