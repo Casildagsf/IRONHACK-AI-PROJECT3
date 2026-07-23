@@ -250,3 +250,18 @@ def generate_summary(
     )
 
     return summary
+
+def generate_category_summaries(reviews, top_products, lowest_products,
+                                positive_examples, negative_examples,
+                                tokenizer, model, device):
+    """Build a prompt and generate a summary for every product category."""
+    rows = []
+    for category in sorted(reviews["cluster_name"].dropna().unique()):
+        prompt = build_prompt(category, top_products, lowest_products,
+                              positive_examples, negative_examples)
+        rows.append({
+            "cluster_name": category,
+            "prompt": prompt,
+            "summary": generate_summary(prompt, tokenizer, model, device),
+        })
+    return pd.DataFrame(rows)
