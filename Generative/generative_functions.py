@@ -274,51 +274,17 @@ def generate_summary(
 
     return summary
 
-import gc
-
-def generate_category_summaries(
-    reviews,
-    top_products,
-    lowest_products,
-    positive_examples,
-    negative_examples,
-    tokenizer,
-    model,
-    device
-):
-
-    summaries = []
-
-    categories = reviews["cluster_name"].unique()
-
-    for category in categories:
-
-        print(f"Generating: {category}")
-
-        prompt = build_prompt(
-            category=category,
-            top_products=top_products,
-            lowest_products=lowest_products,
-            positive_examples=positive_examples,
-            negative_examples=negative_examples
-        )
-
-        summary = generate_summary(
-            prompt,
-            tokenizer,
-            model,
-            device
-        )
-
-        summaries.append({
+def generate_category_summaries(reviews, top_products, lowest_products,
+                                positive_examples, negative_examples,
+                                tokenizer, model, device):
+    """Build a prompt and generate a summary for every product category."""
+    rows = []
+    for category in sorted(reviews["cluster_name"].dropna().unique()):
+        prompt = build_prompt(category, top_products, lowest_products,
+                              positive_examples, negative_examples)
+        rows.append({
             "cluster_name": category,
-            "summary": summary
+            "prompt": prompt,
+            "summary": generate_summary(prompt, tokenizer, model, device),
         })
-
-        # Free memory before the next iteration
-        del prompt
-        gc.collect()
-
-        print("Finished!")
-
-    return pd.DataFrame(summaries)
+    return pd.DataFrame(rows)
