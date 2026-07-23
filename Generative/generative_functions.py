@@ -186,7 +186,7 @@ def build_prompt(
     prompt = f"""
 You are an expert technology reviewer.
 
-Write a consumer buying guide (150–200 words) for the following product category.
+Write a consumer buying guide between 150 and 200 words.
 
 Category:
 {category}
@@ -197,20 +197,39 @@ Top Products:
 Lowest Rated Product:
 - {worst}
 
-Positive Customer Feedback:
+Representative Positive Reviews:
 {chr(10).join("- " + r for r in positive)}
 
-Negative Customer Feedback:
+Representative Negative Reviews:
 {chr(10).join("- " + r for r in negative)}
 
-Include:
+Instructions:
 
-- The three best products.
-- Their main strengths.
-- The most common complaints.
-- Which product should be avoided and why.
+• Write complete sentences.
 
-Write in a neutral and informative tone.
+• Do NOT copy review text.
+
+• Summarize the customer opinions.
+
+• Explain why the top products stand out.
+
+• Mention the most common complaints.
+
+• Explain why the lowest-rated product should be avoided.
+
+Use the following structure:
+
+Title
+
+Overview
+
+Top Recommendations
+
+Common Complaints
+
+Buying Recommendation
+
+Write in a professional and neutral tone.
 """
 
     return prompt
@@ -219,6 +238,8 @@ Write in a neutral and informative tone.
 # ==========================================================
 # Text Generation
 # ==========================================================
+
+import torch
 
 def generate_summary(
     prompt,
@@ -237,12 +258,14 @@ def generate_summary(
         max_length=512
     ).to(device)
 
-    outputs = model.generate(
-        **inputs,
-        max_new_tokens=220,
-        temperature=0.7,
-        do_sample=True
-    )
+    with torch.no_grad():
+
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=180,
+            temperature=0.7,
+            do_sample=True
+        )
 
     summary = tokenizer.decode(
         outputs[0],
